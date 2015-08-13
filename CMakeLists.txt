@@ -40,7 +40,7 @@ set(FAKEIT_DIR ${CMAKE_CURRENT_SOURCE_DIR}/3rdParty/FakeIt)
 CPM_EnsureRepoIsCurrent(
   TARGET_DIR ${FAKEIT_DIR}
   GIT_REPOSITORY "https://github.com/eranpeer/FakeIt.git"
-  GIT_TAG origin/master
+  GIT_TAG origin/dev
   USE_CACHING TRUE
   )
 
